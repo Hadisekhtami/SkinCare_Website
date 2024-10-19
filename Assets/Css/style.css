@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'FH Collena';
+    src: url(./FH+Collena.eot);
+    src: url(./FH+Collena.eot?#iefix) format('embedded-opentype'),
+         url(./FH+Collena.woff2) format('woff2'),
+         url(./FH+Collena.woff) format('woff'),
+         url(./FH+Collena.ttf) format('truetype'),
+         url(./FH+Collena.otf) format('otf');
+  }
+  @font-face {
+    font-family: 'Belfika Namor';
+    src: url(./Belfika+Namor.eot);
+    src: url(./Belfika+Namor.eot?#iefix) format('embedded-opentype'),
+         url(./Belfika+Namor.woff2) format('woff2'),
+         url(./Belfika+Namor.woff) format('woff'),
+         url(./Belfika+Namor.ttf) format('truetype'),
+         url(./Belfika+Namor.otf) format('otf');
+  }
+  
+  
+*
+{
+    color: black;
+    text-decoration: none;   
+}
+html
+{
+    font-size: 16px;
+}
+header
+{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(../Img/w1.jpg) center/cover no-repeat;
+}  
+.text-brand
+{
+  font-size: 2rem;
+  font-family: 'FH Collena';
+  font-weight: bold;
+  margin-top: 5px;
+}
+.top-menu-group
+{
+    margin-top: 10px;
+}
+.header-text
+{
+  top: 200px;
+}
+.header-text h1,h2
+{
+  font-size: 2.5rem;
+}
+.category-title,.saller-title
+{
+  font-family: 'FH Collena';
+  font-weight: bold;
+}
+.card
+{
+  border: none;
+}
+.card-img-top
+{
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+.card:hover
+{
+  box-shadow: 1px 1px  2px #e2e2e2;
+  transform: translate(0px, -10px);
+  transition: all .5s ease-in-out;
+}
+.navbar-expand-lg .nav-link
+{
+  text-align: center;
+  color: black!important;
+}
+.bg-footer
+{
+    background-image: radial-gradient(circle at 69% 86%, rgba(165, 165, 165,0.06) 0%, rgba(165, 165, 165,0.06) 25%,rgba(193, 193, 193,0.06) 25%, rgba(193, 193, 193,0.06) 50%,rgba(221, 221, 221,0.06) 50%, rgba(221, 221, 221,0.06) 75%,rgba(249, 249, 249,0.06) 75%, rgba(249, 249, 249,0.06) 100%),radial-gradient(circle at 49% 76%, rgba(129, 129, 129,0.06) 0%, rgba(129, 129, 129,0.06) 25%,rgba(164, 164, 164,0.06) 25%, rgba(164, 164, 164,0.06) 50%,rgba(200, 200, 200,0.06) 50%, rgba(200, 200, 200,0.06) 75%,rgba(235, 235, 235,0.06) 75%, rgba(235, 235, 235,0.06) 100%),radial-gradient(circle at 22% 64%, rgba(173, 173, 173,0.06) 0%, rgba(173, 173, 173,0.06) 25%,rgba(119, 119, 119,0.06) 25%, rgba(119, 119, 119,0.06) 50%,rgba(64, 64, 64,0.06) 50%, rgba(64, 64, 64,0.06) 75%,rgba(10, 10, 10,0.06) 75%, rgba(10, 10, 10,0.06) 100%),linear-gradient(307deg, rgb(255,255,255),rgb(255,255,255));
+}  
+@media screen and (max-width: 992px) 
+{
+  
+    .searchbar
+    {
+      display: flex;
+      flex-wrap:nowrap ;
+    }
+    .top-menu-container
+    {
+      flex-direction: column!important;
+    }
+    .top-menu-group
+    {
+      order: 3;
+      margin:10px 0px;
+    }
+    .brand
+    {
+      justify-content: center;
+      font-weight: bold;
+      order: 1;
+    }
+    .menu
+    {
+      padding-right: 120px;
+      order: 2;
+    }
+    .header-text h1,h2
+    {
+      font-size: 2rem;
+    }
+    .reserve-btn
+    {
+      font-size: 1.5rem;
+    }
+    .card
+    {
+      width: 350px;
+      margin: auto!important;
+    }
+    .banner
+    {
+      margin: auto!important;
+    }
+   
+}
+  
